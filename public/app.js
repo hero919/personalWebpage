@@ -1,79 +1,83 @@
-///**
-// * Created by zeqingzhang on 2/2/16.
-// */
-//
-////(function(){
-////    'use strict';
-////    angular.
-////        module("personalWebsite",["ngRoute"])
-////        .config(config);
-////
-////    function config($routeProvider){
-////        $routeProvider.
-////                when('/Main', {
-////                    templateUrl: 'index.html'
-////    }).
-////
-////                when('/clientMessage', {
-////                    templateUrl: 'clientMessage/clientMessage.html'
-////
-////                }).
-////                otherwise({
-////                    redirectTo: '/Main'
-////                });
-////        };
-////
-////
-////
-////})();
-//
-//
-//var app = angular.module("personalWebsite",["ngRoute"]);
-//
-//app.config(['$routeProvider',
-//    function ($routeProvider) {
-//        $routeProvider.
-//            when('/MainPage', {
-//                templateUrl: 'index.html'
-//            }).
-//            when('/clientMessage', {
-//                templateUrl: 'clientMessage/clientMessage.html'
-//
-//            }).
-//            otherwise({
-//                redirectTo: '/MainPage'
-//            });
-//    }]);
-//
-//
-//
-//
-//
-//
-//app.controller("contactController",function($scope,$http){
-//
-//    $http.get("/clientMessage").success(function(response){
-//        $scope.newClient = response;
-//    });
-//
-//    $scope.add = function(client){
-//
-//        $http.post("/clientMessage",client)
-//            .success(function(response){
-//                $scope.newClient = response;
-//            });
-//
-//        alert("The Message Has Already Sent! Please Refresh the page.");
-//    };
-//
-//
-//    $scope.remove = function(id){
-//        //console.log("The id is: "+ id);
-//        $http.delete("/clientMessage/"+id).success(
-//            function(response){
-//                $scope.newClient = response;
-//            }
-//        )
-//    }
-//
-//});
+
+$(document).ready(function() {
+    console.log(jQuery);
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    console.log("document ready");
+
+
+    $('#button01').click(function () {
+        console.log("click button01");
+        $('#Unity').modal({
+            show: true
+        });
+    });
+    $('#Unity').on('show.bs.modal', function () {
+        console.log("Success01");
+        Galleria.run('.galleria01');
+
+    });
+
+
+
+
+
+
+    $('#button02').click(function () {
+        console.log("click button02");
+        $('#personalWebsite').modal({
+            show: true
+        });
+    });
+    $('#personalWebsite').on('show.bs.modal', function () {
+        console.log("Success02");
+        Galleria.run('.galleria02');
+    });
+
+
+
+
+
+
+
+    $('#button04').click(function () {
+        console.log("click button04");
+        $('#ajax').modal({
+            show: true
+        });
+    });
+
+
+    //$('#ajax').on('shown.bs.modal', function () {
+    //    console.log("Success01");
+    //    //Galleria.run('.galleria02');
+    //    // do something...
+    //})
+    //
+    //$('#ajax').on('show.bs.modal', function () {
+    //    console.log("Success02");
+    //    //Galleria.run('.galleria02');
+    //    // do something...
+    //})
+    //
+    //$('#ajax').on('hide.bs.modal', function () {
+    //    console.log("Success03");
+    //    //Galleria.run('.galleria02');
+    //    // do something...
+    //})
+    //
+    //$('#ajax').on('hidden.bs.modal', function () {
+    //    console.log("Success04");
+    //    //Galleria.run('.galleria02');
+    //    // do something...
+    //})
+    //
+    //$('#ajax').on('loaded.bs.modal', function () {
+    //    console.log("Success05");
+    //    //Galleria.run('.galleria02');
+    //    // do something...
+    //})
+
+
+
+
+});
