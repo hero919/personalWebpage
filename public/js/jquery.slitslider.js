@@ -18,11 +18,11 @@ $.fn.slitsliderEmulateTransitionEnd = function (duration) {
 	},
 	transEndEventName = transEndEventNames[ Modernizr.prefixed('transition') ];
 
-	var called = false, $el = this
-	$(this).one(transEndEventName, function () { called = true })
+	var called = false, $el = this;
+	$(this).one(transEndEventName, function () { called = true });
 
-	var callback = function () { if (!called) $($el).trigger(transEndEventName) }
-	setTimeout(callback, duration)
+	var callback = function () { if (!called) $($el).trigger(transEndEventName) };
+	setTimeout(callback, duration);
 	return this
 }
 
