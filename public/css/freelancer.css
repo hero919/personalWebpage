@@ -69,12 +69,12 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18bc9c;
+  /*background: #18bc9c;*/
   color: white;
 }
 header .container {
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 header img {
   display: block;
@@ -93,8 +93,8 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 0px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -401,11 +401,22 @@ footer .footer-below {
 
 .download{
 line-height: 50px;
-
-
-
-
-
-
-
 }
+
+hr.hr-style {
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr.hr-style:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+

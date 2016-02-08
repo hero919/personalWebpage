@@ -11,6 +11,11 @@
 
     <title>Zeqing Zhang</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+
+
+
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,18 +27,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-
-    <!-- Latest compiled and minified CSS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Optional theme -->
@@ -48,19 +41,43 @@
 
     <script type="text/javascript" src="galleria/galleria-1.4.2.min.js"></script>
 
+
+
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />
+    <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
+
+    <!--<noscript>-->
+    <!--<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />-->
+    <!--</noscript>-->
+
     <script src="app.js"></script>
 
     <script src="js/contact.js"></script>
 
+
+
+
     <style>
         .galleria01{ width: 700px; height: 400px; background: #000 }
-        .galleria02{ width: 600px; height: 600px; background: #000 }
+        .galleria02{ width: 500px; height: 550px; background: #000 }
     </style>
 
 
 
 
 </head>
+
 <!--ng-app="personalWebsite"-->
 <body id="page-top" class="index">
 
@@ -75,7 +92,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">ZEQING</a>
+                <a class="navbar-brand" href="#page-top">ZEQING ZHANG</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -101,20 +118,87 @@
     </nav>
 
     <!-- Header -->
+
+
+        <!--<header>-->
+        <!--&lt;!&ndash;<div class="container">&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="col-lg-12">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img class="img-responsive" src="img/zeqing03.jpg" alt="self" style="border-radius:50% 50% 50% 50%; width:320px">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<div class="intro-text">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<span class="name">Zeqing Zhang's Webpage</span>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<hr class="star-light">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<span class="skills">Computer Science&Mathematics-Northeatern University</span>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--</header>-->
+
+
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/zeqing03.jpg" alt="self" style="border-radius:50% 50% 50% 50%; width:320px">
-                    <div class="intro-text">
-                        <span class="name">Zeqing Zhang's Webpage</span>
-                        <hr class="star-light">
-                        <span class="skills">Computer Science&Mathematics-Northeatern University</span>
+    <div class="container demo-2" style="padding-left: 0px; padding-right: 0px;">
+        <div id="slider" class="sl-slider-wrapper">
+
+            <div class="sl-slider">
+
+                <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                    <div class="sl-slide-inner">
+                        <div class="bg-img bg-img-1"></div>
+                        <h2>Welcome to my world!!</h2>
+                        <blockquote><h4>I am Zeqing. I am a software developer.</h4>
+                        <cite>Computer Science&Mathematics-Northeatern University</cite>
+                        </blockquote>
                     </div>
                 </div>
-            </div>
-        </div>
+
+                <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                    <div class="sl-slide-inner">
+                        <div class="bg-img bg-img-2"></div>
+                        <h2>What you can see here?</h2>
+                        <blockquote><p3>Here you can find everything about myself if you want to know me. </p3></blockquote>
+                    </div>
+                </div>
+
+                <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                    <div class="sl-slide-inner">
+                        <div class="bg-img bg-img-3"></div>
+                        <h2>Want to know more about me?</h2>
+                        <blockquote><h3>Welcome to contact me any time! I like to know more people and make more friends!</h3></blockquote>
+                    </div>
+                </div>
+
+                <!--<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">-->
+                    <!--<div class="sl-slide-inner">-->
+                        <!--<div class="bg-img bg-img-4"></div>-->
+                        <!--<h2>Donna nobis pacem.</h2>-->
+                        <!--<blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">-->
+                    <!--<div class="sl-slide-inner">-->
+                        <!--<div class="bg-img bg-img-5"></div>-->
+                        <!--<h2>Acta Non Verba.</h2>-->
+                        <!--<blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi Clarke</cite></blockquote>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>&lt;!&ndash; /sl-slider &ndash;&gt;-->
+
+            <nav id="nav-dots" class="nav-dots">
+                <span class="nav-dot-current"></span>
+                <span></span>
+                <span></span>
+                <!--<span></span>-->
+                <!--<span></span>-->
+            </nav>
+
+        </div><!-- /slider-wrapper -->
+    </div>
     </header>
+
+
+
+
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -122,7 +206,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <hr class="hr-style">
                 </div>
             </div>
             <div class="row">
@@ -154,7 +238,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/angularjs-logo.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/AJAX_logo.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -164,7 +248,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/AJAX_logo.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/StateStreetLogo.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -196,8 +280,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+                    <h2>About Me</h2>
+                    <style>
+                        hr.contacthr {
+                            border: 0;
+                            height: 1px;
+                            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+                        }
+
+                    </style>
+                    <hr class="contacthr">
                 </div>
             </div>
             <div class="row">
@@ -398,7 +490,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Information</h2>
-                    <hr class="star-primary">
+                    <hr class="">
                 </div>
             </div>
             <div class="row">
@@ -484,23 +576,29 @@
                         height: 330px;
                     }
                 </style>
+
                 <div id="map" class="col-xs-12 col-sm-6">
 
                     <script>
+
                         function initMap() {
-                            var mapDiv = document.getElementById('map');
-                            var map = new google.maps.Map(mapDiv, {
-                                center: {lat: 42.434166, lng: -71.074469},
-                                zoom: 20
+                            var myLocation = {lat: 42.434166, lng: -71.074469};
+
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 15,
+                                center: myLocation
+                            });
+
+                            var marker = new google.maps.Marker({
+                                position: myLocation,
+                                map: map,
+                                title: 'I Live Here!'
                             });
                         }
+
                     </script>
                     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
                             async defer></script>
-
-
-
-
                 </div>
 
 
@@ -587,7 +685,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Gamified Personal Tracking System</h2>
-                            <hr class="star-primary">
+                            <hr class="hr-style">
                             <div class="detail">
                                 <!--<p> we are working with the Northeastern University Center for<a href="http://www.northeastern.edu/learningresearch/about/who-we-are/"> Advancing Teaching and Learning Through Research (CATLR)</a>-->
                                     <!--to develop a mobile app for allowing students to track their personal development in the areas of Global-->
@@ -630,7 +728,7 @@
                                 </ul>
 
                             </div>
-                            <div class="galleria01" >
+                            <div class="galleria01 img-centered" >
                                 <img src="img/portfolio/Unity01.png">
                                 <img src="img/portfolio/Unity02.png">
                                 <img src="img/portfolio/Unity03.png">
@@ -697,30 +795,49 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>First Personal Website</h2>
-                            <hr class="star-primary">
+                            <hr class="hr-style">
+                            <div>
+                                <p>This is my first website build without the template made about one year ago. </p>
+                            </div>
+
+                            <div>
+                                <ul>
+                                    <li>
+                                        Using pure HTML&&CSS to build the website without any template. Use boostrap to make the
+                                        nav bar and make the page looks beauty.
+                                    </li>
+                                    <li>
+                                        Using NodeJS as the main server and use angular as the controller of the website.
+                                    </li>
+                                    <li>
+                                        The remote server is <a href="https://www.openshift.com">Openshit</a> using node module and database module using Mongo to get
+                                        the information sent from the clients.
+                                    </li>
+                                    <li>
+                                        The website uses responsive design and can fit for different sizes of devices.
+                                    </li>
+                                </ul>
+                            </div>
                             <div class="galleria02 img-centered" >
                                 <img src="img/firstWebsite/personalWebsite01.png">
                                 <img src="img/firstWebsite/personalWebsite02.png">
                                 <img src="img/firstWebsite/personalWebsite03.png">
                             </div>
 
-                            <div>
-                                <p>This is my first website build without the template. Using NodeJS as server, Angular as
-                                controller. </p>
-                            </div>
+                            <div class="item-details">
 
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>June 2015
-                                    </strong>
-                                </li>
-                                <li><h4>Website Link:</h4>
-                                    <h5>
+                                <div><h5>Website Link:</h5>
+                                    <h4>
                                         <strong><a href="http://stories-zhangzeqing.rhcloud.com/#/About">Personal Website</a>
                                         </strong>
-                                    </h5>
-                                </li>
-                            </ul>
+                                    </h4>
+                                </div>
+                                <div>Date:
+                                    <strong>June 2015
+                                    </strong>
+                                </div>
+
+                            </div>
 
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -737,7 +854,7 @@
 
 
 
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="ajax" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -783,7 +900,7 @@
 
 
 
-    <div class="portfolio-modal modal fade" id="ajax" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="StateStreet" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -797,7 +914,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/statestreetoutside.jpg" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -917,3 +1034,77 @@
 </body>
 
 </html>
+
+
+
+
+<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+<script type="text/javascript" src="js/jquery.slitslider.js"></script>
+<script type="text/javascript">
+    $(function() {
+
+        var Page = (function() {
+
+            var $nav = $( '#nav-dots > span' ),
+                    slitslider = $( '#slider' ).slitslider( {
+                        onBeforeChange : function( slide, pos ) {
+
+                            $nav.removeClass( 'nav-dot-current' );
+                            $nav.eq( pos ).addClass( 'nav-dot-current' );
+
+                        }
+                    } ),
+                    init = function() {
+
+                        initEvents();
+
+                    },
+                    initEvents = function() {
+
+                        $nav.each( function( i ) {
+
+                            $( this ).on( 'click', function( event ) {
+
+                                var $dot = $( this );
+
+                                if( !slitslider.isActive() ) {
+
+                                    $nav.removeClass( 'nav-dot-current' );
+                                    $dot.addClass( 'nav-dot-current' );
+
+                                }
+
+                                slitslider.jump( i + 1 );
+                                return false;
+
+                            } );
+
+                        } );
+
+                    };
+
+            return { init : init };
+
+        })();
+
+        Page.init();
+
+        /**
+         * Notes:
+         *
+         * example how to add items:
+         */
+
+        /*
+
+         var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+
+         // call the plugin's add method
+         ss.add($items);
+
+         */
+
+    });
+</script>
+
+
