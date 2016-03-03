@@ -61,14 +61,26 @@ $(document).ready(function() {
 
 
 
-
-
     $('#button04').click(function () {
         console.log("click button04");
         $('#StateStreet').modal({
             show: true
         });
     });
+
+    $('#button05').click(function () {
+        console.log("click button05");
+        $('#clientSide').modal({
+            show: true
+        });
+    });
+
+    $('#clientSide').on('show.bs.modal', function () {
+        console.log("clientSide");
+        Galleria.run('.galleria03');
+
+    });
+
 
 
     //$('#ajax').on('shown.bs.modal', function () {
