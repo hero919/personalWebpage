@@ -21,7 +21,7 @@ $(document).ready(function() {
         // keyboard navigation
         keyboard : true,
         // time between transitions
-        interval : 4000,
+        interval : 3000,
         // callbacks
         onBeforeChange : function( slide, idx ) { return false; },
         onAfterChange : function( slide, idx ) { return false; }
@@ -40,6 +40,33 @@ $(document).ready(function() {
         Galleria.run('.galleria01');
 
     });
+
+
+
+
+
+
+
+    $('#meanstack').click(function () {
+        console.log("click meanstack");
+        $('#tripDetails').modal({
+            show: true
+        });
+    });
+    $('#tripDetails').on('show.bs.modal', function () {
+        console.log("SuccessTrip");
+        Galleria.run('.galleriaTrip');
+
+    });
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,6 +94,11 @@ $(document).ready(function() {
             show: true
         });
     });
+
+
+
+
+
 
     $('#button05').click(function () {
         console.log("click button05");
