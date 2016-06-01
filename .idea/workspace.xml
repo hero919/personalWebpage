@@ -2,7 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da462460-c51a-435b-adf1-1f6205b3e02e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/server/service/contactService.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/mianpage.controller.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/clientMessage/clientMessage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/views/personalWebsite.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/components/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/components/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/custom.css" afterPath="$PROJECT_DIR$/public/components/css/custom.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/demo.css" afterPath="$PROJECT_DIR$/public/components/css/demo.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/fonts/animals-webfont.eot" afterPath="$PROJECT_DIR$/public/components/css/fonts/animals-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/fonts/animals-webfont.svg" afterPath="$PROJECT_DIR$/public/components/css/fonts/animals-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/fonts/animals-webfont.ttf" afterPath="$PROJECT_DIR$/public/components/css/fonts/animals-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/fonts/animals-webfont.woff" afterPath="$PROJECT_DIR$/public/components/css/fonts/animals-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/freelancer.css" afterPath="$PROJECT_DIR$/public/components/css/freelancer.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/freelancer.min.css" afterPath="$PROJECT_DIR$/public/components/css/freelancer.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/components/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/css/styleNoJS.css" afterPath="$PROJECT_DIR$/public/components/css/styleNoJS.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/components/font-awesome/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/components/font-awesome/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/components/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/components/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/components/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/components/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/components/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/bordered-pulled.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/core.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/fixed-width.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/font-awesome.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/icons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/larger.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/list.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/path.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/rotated-flipped.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/spinning.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/stacked.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/public/components/font-awesome/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_fixed-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_larger.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_path.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_spinning.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_stacked.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/public/components/font-awesome/scss/font-awesome.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/components/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/components/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/components/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/components/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/components/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/airlinesImages/01.png" afterPath="$PROJECT_DIR$/public/components/img/airlinesImages/01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/airlinesImages/02.png" afterPath="$PROJECT_DIR$/public/components/img/airlinesImages/02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/airlinesImages/03.png" afterPath="$PROJECT_DIR$/public/components/img/airlinesImages/03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/airlinesImages/04.png" afterPath="$PROJECT_DIR$/public/components/img/airlinesImages/04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/airlinesImages/05.png" afterPath="$PROJECT_DIR$/public/components/img/airlinesImages/05.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/airlinesImages/06.png" afterPath="$PROJECT_DIR$/public/components/img/airlinesImages/06.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/airlinesImages/07.png" afterPath="$PROJECT_DIR$/public/components/img/airlinesImages/07.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/autumn.jpg" afterPath="$PROJECT_DIR$/public/components/img/autumn.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/fb/01.png" afterPath="$PROJECT_DIR$/public/components/img/fb/01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/fb/02.png" afterPath="$PROJECT_DIR$/public/components/img/fb/02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/fb/03.png" afterPath="$PROJECT_DIR$/public/components/img/fb/03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/fb/04.png" afterPath="$PROJECT_DIR$/public/components/img/fb/04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/fb/05.png" afterPath="$PROJECT_DIR$/public/components/img/fb/05.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/fb/06.png" afterPath="$PROJECT_DIR$/public/components/img/fb/06.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/firstWebsite/personalWebsite01.png" afterPath="$PROJECT_DIR$/public/components/img/firstWebsite/personalWebsite01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/firstWebsite/personalWebsite02.png" afterPath="$PROJECT_DIR$/public/components/img/firstWebsite/personalWebsite02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/firstWebsite/personalWebsite03.png" afterPath="$PROJECT_DIR$/public/components/img/firstWebsite/personalWebsite03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/husky.jpeg" afterPath="$PROJECT_DIR$/public/components/img/husky.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/neuicon.png" afterPath="$PROJECT_DIR$/public/components/img/neuicon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/neulogo.jpg" afterPath="$PROJECT_DIR$/public/components/img/neulogo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/night.jpg" afterPath="$PROJECT_DIR$/public/components/img/night.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/AJAX_logo.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/AJAX_logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/StateStreetLogo.jpg" afterPath="$PROJECT_DIR$/public/components/img/portfolio/StateStreetLogo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/Unity01.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/Unity01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/Unity02.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/Unity02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/Unity03.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/Unity03.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/Unity04.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/Unity04.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/Unity05.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/Unity05.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/Unity06.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/Unity06.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/Unity07.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/Unity07.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/UnityNew.jpg" afterPath="$PROJECT_DIR$/public/components/img/portfolio/UnityNew.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/angularjs-logo.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/angularjs-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/cabin.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/cabin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/cake.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/cake.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/circus.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/circus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/comingSoon.jpeg" afterPath="$PROJECT_DIR$/public/components/img/portfolio/comingSoon.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/comingfinal.gif" afterPath="$PROJECT_DIR$/public/components/img/portfolio/comingfinal.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/coomingSoon02.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/coomingSoon02.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/game.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/game.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/js.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/js.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/mean.jpeg" afterPath="$PROJECT_DIR$/public/components/img/portfolio/mean.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/mean.jpg" afterPath="$PROJECT_DIR$/public/components/img/portfolio/mean.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/meanMax.jpg" afterPath="$PROJECT_DIR$/public/components/img/portfolio/meanMax.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/nodejs.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/nodejs.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/questionMark.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/questionMark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/safe.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/safe.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/statestreetoutside.jpg" afterPath="$PROJECT_DIR$/public/components/img/portfolio/statestreetoutside.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/submarine.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/submarine.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/portfolio/zeqingmain01.png" afterPath="$PROJECT_DIR$/public/components/img/portfolio/zeqingmain01.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/profile.png" afterPath="$PROJECT_DIR$/public/components/img/profile.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/winter.jpg" afterPath="$PROJECT_DIR$/public/components/img/winter.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/zeqing01.jpg" afterPath="$PROJECT_DIR$/public/components/img/zeqing01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/zeqing02.jpg" afterPath="$PROJECT_DIR$/public/components/img/zeqing02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/zeqing03.jpg" afterPath="$PROJECT_DIR$/public/components/img/zeqing03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/components/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/components/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/cbpAnimatedHeader.js" afterPath="$PROJECT_DIR$/public/components/js/cbpAnimatedHeader.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/cbpAnimatedHeader.min.js" afterPath="$PROJECT_DIR$/public/components/js/cbpAnimatedHeader.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/classie.js" afterPath="$PROJECT_DIR$/public/components/js/classie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/contact.js" afterPath="$PROJECT_DIR$/public/components/js/contact.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/contact_me.js" afterPath="$PROJECT_DIR$/public/components/js/contact_me.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/freelancer.js" afterPath="$PROJECT_DIR$/public/components/js/freelancer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/freelancer.min.js" afterPath="$PROJECT_DIR$/public/components/js/freelancer.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jqBootstrapValidation.js" afterPath="$PROJECT_DIR$/public/components/js/jqBootstrapValidation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.ba-cond.min.js" afterPath="$PROJECT_DIR$/public/components/js/jquery.ba-cond.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.js" afterPath="$PROJECT_DIR$/public/components/js/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/jquery.slitslider.js" afterPath="$PROJECT_DIR$/public/components/js/jquery.slitslider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/js/modernizr.custom.79639.js" afterPath="$PROJECT_DIR$/public/components/js/modernizr.custom.79639.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/less/freelancer.less" afterPath="$PROJECT_DIR$/public/components/less/freelancer.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/less/mixins.less" afterPath="$PROJECT_DIR$/public/components/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/less/variables.less" afterPath="$PROJECT_DIR$/public/components/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/resume/ZEQING ZHANG.docx" afterPath="$PROJECT_DIR$/public/components/resume/ZEQING ZHANG.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/resume/ZEQING ZHANG.pdf" afterPath="$PROJECT_DIR$/public/components/resume/ZEQING ZHANG.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/resume/eCertificate.pdf" afterPath="$PROJECT_DIR$/public/components/resume/eCertificate.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mainpage.iws" />
@@ -24,35 +155,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35459942">
-              <caret line="437" column="20" selection-start-line="437" selection-start-column="20" selection-end-line="437" selection-end-column="20" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#strong#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#strong#0;n#h5#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#strong#0;n#h5#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,17 +198,23 @@
                 <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#strong#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#strong#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#strong#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#strong#0;n#h4#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index-copy.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index-copy.html">
+      <file leaf-file-name="contactService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/server/service/contactService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.59099436">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +223,7 @@
         <entry file="file://$PROJECT_DIR$/public/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -94,8 +234,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Html5" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -111,18 +251,21 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/clientMessage/clientMessage.html" />
         <option value="$PROJECT_DIR$/public/js/contact.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/mail/contact_me.php" />
         <option value="$PROJECT_DIR$/public/js/contact_me.js" />
-        <option value="$PROJECT_DIR$/public/views/personalWebsite.html" />
         <option value="$PROJECT_DIR$/public/galleria/galleria-1.4.2.min.js" />
         <option value="$PROJECT_DIR$/public/css/demo.css" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/public/css/custom.css" />
         <option value="$PROJECT_DIR$/public/js/freelancer.js" />
+        <option value="$PROJECT_DIR$/public/css/custom.css" />
         <option value="$PROJECT_DIR$/public/css/freelancer.css" />
+        <option value="$PROJECT_DIR$/public/views/personalWebsite.html" />
+        <option value="$PROJECT_DIR$/public/views/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/mianpage.controller.js" />
         <option value="$PROJECT_DIR$/public/app.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/server/service/contactService.js" />
       </list>
     </option>
   </component>
@@ -160,7 +303,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,35 +350,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainpage" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webdev2016" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -256,6 +385,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -265,12 +396,14 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public/views" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/components" />
+      <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.server">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -309,6 +442,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.server" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -333,26 +472,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36417034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18506752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23150685" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17264277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -371,78 +510,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="165" column="56" selection-start-line="165" selection-start-column="56" selection-end-line="165" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#strong#0;n#h5#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#strong#0;n#h5#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#strong#0;n#h4#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#strong#0;n#h4#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#strong#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#strong#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#strong#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/freelancer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="394" column="18" selection-start-line="394" selection-start-column="18" selection-end-line="394" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index-copy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/contact_me.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/contact_me.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/classie.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/classie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -463,7 +538,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/contact.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
@@ -483,28 +558,31 @@
           <caret line="165" column="56" selection-start-line="165" selection-start-column="56" selection-end-line="165" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#0;n#h5#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#0;n#h5#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -516,11 +594,15 @@
             <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#strong#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#strong#0;n#h4#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/freelancer.css">
+    <entry file="file://$PROJECT_DIR$/public/components/css/freelancer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="394" column="18" selection-start-line="394" selection-start-column="18" selection-end-line="394" selection-end-column="18" />
@@ -541,14 +623,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/contact_me.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/contact_me.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/classie.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/classie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -559,13 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/contact_me.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -604,114 +679,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/freelancer.min.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/freelancer.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.098684214">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery.ba-cond.min.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/jquery.ba-cond.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/husky.jpeg">
+    <entry file="file://$PROJECT_DIR$/public/components/img/husky.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/cbpAnimatedHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/classie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/contact.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2917342">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery.slitslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.5915723">
-          <caret line="230" column="36" selection-start-line="230" selection-start-column="36" selection-end-line="230" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jqBootstrapValidation.js">
+    <entry file="file://$PROJECT_DIR$/public/components/js/jqBootstrapValidation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.197731">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/freelancer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19448946">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/public/components/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -722,6 +747,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/css/freelancer.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75488067">
+          <caret line="494" column="22" selection-start-line="494" selection-start-column="22" selection-end-line="494" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33188722">
+          <caret line="772" column="22" selection-start-line="772" selection-start-column="22" selection-end-line="772" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/galleria/themes/classic/classic-map.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14851485">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index-copy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/mianpage.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/css/freelancer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/js/contact_me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/js/freelancer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/js/jquery.slitslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="230" column="36" selection-start-line="230" selection-start-column="36" selection-end-line="230" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/js/classie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -729,68 +866,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/clientMessage/clientMessage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.875">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/public/components/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="11" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="11" />
+          <caret line="359" column="1" selection-start-line="359" selection-start-column="1" selection-end-line="359" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/demo.css">
+    <entry file="file://$PROJECT_DIR$/public/components/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/freelancer.css">
+    <entry file="file://$PROJECT_DIR$/public/components/css/styleNoJS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/freelancer.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="30" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/styleNoJS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index-copy.html">
+    <entry file="file://$PROJECT_DIR$/public/components/js/cbpAnimatedHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -801,39 +901,42 @@
     <entry file="file://$PROJECT_DIR$/public/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35459942">
-          <caret line="437" column="20" selection-start-line="437" selection-start-column="20" selection-end-line="437" selection-end-column="20" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#strong#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#2;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#0;n#h5#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#0;n#h5#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -845,6 +948,20 @@
             <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#strong#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#strong#0;n#h4#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/server/service/contactService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59099436">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>

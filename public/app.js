@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    console.log(jQuery);
+    console.log(angular);
     Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
     console.log("document ready");
 
@@ -21,12 +21,18 @@ $(document).ready(function() {
         // keyboard navigation
         keyboard : true,
         // time between transitions
-        interval : 3000,
+        interval : 4000,
         // callbacks
         onBeforeChange : function( slide, idx ) { return false; },
         onAfterChange : function( slide, idx ) { return false; }
     };
 
+
+    $('#weatherSearchingSystem').click(function () {
+        $('#weatherModal').modal({
+            show: true
+        });
+    });
 
 
     $('#button01').click(function () {
@@ -40,10 +46,6 @@ $(document).ready(function() {
         Galleria.run('.galleria01');
 
     });
-
-
-
-
 
 
 
