@@ -7,7 +7,7 @@ require('./public/server/service/contactService.js')(app);
 
 app.use(express.static(__dirname + "/dist/personalwebpage"));
 app.get("/*", function(req, res) {
-    res.sendFile(path.join(__dirname + "/dist/personalwebpage/public/index.html"));
+    res.sendFile(path.join(__dirname + "/dist/personalwebpage/index.html"));
 });
 // app.use(express.static(__dirname + '/public'));
 
