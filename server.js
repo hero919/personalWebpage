@@ -4,10 +4,11 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 require('./public/server/service/contactService.js')(app);
+const path = require("path");
 
 app.use(express.static(__dirname + "/dist/personalWebpage"));
 app.get("/*", function(req, res) {
-    res.sendFile(path.join(__dirname + "/dist/personalWebpage/index.html"));
+    res.sendFile(path.join(__dirname + "/dist/personalWebpage/public/index.html"));
 });
 // app.use(express.static(__dirname + '/public'));
 
