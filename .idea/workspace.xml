@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da462460-c51a-435b-adf1-1f6205b3e02e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
@@ -114,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1454461607745</updated>
       <workItem from="1517262766082" duration="218000" />
-      <workItem from="1598233497469" duration="872000" />
+      <workItem from="1598233497469" duration="1409000" />
     </task>
     <servers />
   </component>
@@ -142,9 +143,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2779" y="315" width="586" height="490" key="find.popup" timestamp="1598234172417">
-      <screen x="2048" y="23" width="2048" height="1075" />
+    <state x="2779" y="315" width="586" height="491" key="find.popup" timestamp="1598235121403">
+      <screen x="2048" y="23" width="2048" height="1076" />
     </state>
     <state x="2779" y="315" width="586" height="490" key="find.popup/2048.23.2048.1075/0.23.2048.1129/-1680.53.1680.1027@2048.23.2048.1075" timestamp="1598234172417" />
+    <state x="2779" y="315" width="586" height="491" key="find.popup/2048.23.2048.1076/0.23.2048.1129/-1680.53.1680.1027@2048.23.2048.1076" timestamp="1598235121403" />
   </component>
 </project>
