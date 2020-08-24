@@ -6,9 +6,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 require('./public/server/service/contactService.js')(app);
 const path = require("path");
 
-app.use(express.static(__dirname + "/personalWebpage"));
+app.use(express.static(__dirname + "/public"));
 app.get("/*", function(req, res) {
-    res.sendFile(path.join(__dirname, "/personalWebpage/public/index.html"));
+    res.sendFile(path.join(__dirname, "/public/index.html"));
 });
 // app.use(express.static(__dirname + '/public'));
 
